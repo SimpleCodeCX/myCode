@@ -1,0 +1,15 @@
+{
+  "name": "api-tree",
+  "version": "1.0.0",
+  "description": "api tree demo",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm run install-angular-demo && npm run install-node-api",
+    "install-angular-demo": "cd angular-demo && npm install",
+    "install-node-api": "cd node-api && npm install",
+    "angular-demo": "cd angular-demo && ng serve -o",
+    "node-api-demo": "cd node-api && npm run dev"
+  },
+  "author": "Simple",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "execwhentime",
+  "version": "1.0.0",
+  "description": "exec when time every day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "execwhentime"
+  ],
+  "author": "Simple",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

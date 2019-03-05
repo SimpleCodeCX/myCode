@@ -73,8 +73,8 @@ function execWhenTime(hour, minute, second, fn) {
 
 }
 
-exports.timersService = (fn) => {
-  execWhenTime(20, 30, 50, fn);
+exports.timersService = (hour, minute, second, fn) => {
+  execWhenTime(hour, minute, second, fn);
 };
 
 

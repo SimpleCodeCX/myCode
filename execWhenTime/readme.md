@@ -125,3 +125,8 @@ exports.timersService = (fn) => {
   execWhenTime(20, 30, 50, fn);
 };
 ```
+
+### 4.Example
+
+
+![avatar](./execWhenTime.jpg)

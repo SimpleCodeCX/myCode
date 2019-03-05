@@ -1,4 +1,4 @@
-const timersService = require('./timersService').timersService;
+const { timersService } = require('./timersService');
 
 const sendNotification = async () => {
   console.log('------------------------------------------------');
@@ -7,4 +7,5 @@ const sendNotification = async () => {
 };
 
 
-timersService(sendNotification);
+// 每天 10:00 定时发送邮件
+timersService(10, 0, 0, sendNotification);

@@ -1,0 +1,4 @@
+{
+  "eslint.enable": true, //启用eslint
+  // "eslint.autoFixOnSave": true, //保存时自动lint
+}

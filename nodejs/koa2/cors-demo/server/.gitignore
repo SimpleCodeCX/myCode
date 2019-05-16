@@ -1,0 +1,7 @@
+/node_modules/
+/.vscode-upload.json
+/package-lock.json
+/npm-debug.log
+/__bak/**
+/startShell/**
+package-lock.json

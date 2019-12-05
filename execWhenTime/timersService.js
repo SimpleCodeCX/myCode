@@ -14,15 +14,15 @@ function execWhenTime(hour, minute, second, fn) {
 
   let active = false;
 
-  const timerFn = () => {
+  const timerFn = async () => {
     currentH = parseInt(moment().format('HH'), 10);
     currentM = parseInt(moment().format('mm'), 10);
     currentS = parseInt(moment().format('ss'), 10);
     currentSeconds = currentH * 3600 + currentM * 60 + currentS;
 
-    if (currentSeconds - seconds >= 0 && currentSeconds - seconds <= 3600 && !active) {
+    if (currentSeconds - seconds >= 0 && currentSeconds - seconds <= 20 && !active) {
       clearInterval(timer);
-      fn();
+      await fn();
       timerValue = 3600001;
       timer = setInterval(timerFn, timerValue);
       active = true;
